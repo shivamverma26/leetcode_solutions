@@ -6,7 +6,8 @@ class Solution {
         int n = s.length();
         int len = 0;
         while (right < n) {
-            if (mpp.containsKey(s.charAt(right))) left = Math.max(mpp.get(s.charAt(right)) + 1, left);
+            if (mpp.containsKey(s.charAt(right))) 
+            left = Math.max(mpp.get(s.charAt(right)) + 1, left);
 
             mpp.put(s.charAt(right), right);
 

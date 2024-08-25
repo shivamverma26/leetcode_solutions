@@ -14,7 +14,6 @@ class Solution {
        while(!st.isEmpty()){
         str.append(st.pop());
        }
-       str=str.reverse();
-      return str.toString();
+      return str.reverse().toString();
     }
 }
